@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 body {
   /*font-family: "Pushster", cursive;
@@ -301,24 +302,22 @@ input:focus {
 .small-c {
   max-width: 1080;
 }
-@media only screen and (max-width: 1120px) /*less than 800*/ {
+/*@media only screen and (max-width: 1120px)  {
   h3 {
     margin: 10px;
   }
 }
-@media only screen and (max-width: 570px) /*less than 900*/ {
+@media only screen and (max-width: 570px)  {
   h3 {
     margin: 10px;
   }
   .made {
-    /* display: flex;
-    margin-left: 34%; */
+   
     color: #555;
     color: #555;
     position: inherit;
     top: 50%;
-    /* left: 6%; */
-    /* margin-right: 25%; */
+   
     margin-left: -12%;
   }
   .fa.fa-circle {
@@ -327,11 +326,10 @@ input:focus {
     padding: 0;
   }
   * {
-    /*margin-left: -23px;*/
-    /*width: max-content;*/
+   
     scrollbar-width: none;
     margin-left: -21px;
-    /* margin-left: -32px;*/
+   
   }
   nav ul li {
     margin-right: 48px;
@@ -341,9 +339,9 @@ input:focus {
     margin-right: 40px;
   }
   .titleme {
-    /* margin-right: 60px;*/
+   
     padding-left: 23px;
-    /* margin-right: 60px; */
+   
     padding-left: 23px;
     padding-right: 17%;
   }
@@ -374,26 +372,23 @@ input:focus {
     padding-right: 0px;
   }
   .sendbutton .bbutton {
-    /* width: 127px;
-    margin-right: 127px;
-    margin-bottom: -55px;
-    margin-left: 30%; */
+   
 
     width: 127px;
-    /* margin-right: 127px; */
+  
     margin-bottom: -55px;
-    /* margin-left: 30%; */
+    
     display: block;
     margin-left: auto;
     margin-right: 43%;
-    /* margin-bottom: 20px;*/
+   
   }
   #logo {
     padding-left: 35%;
   }
   .message {
     width: 280px;
-    /* margin-left: auto;*/
+   
   }
   .love img {
     width: 114%;
@@ -414,22 +409,14 @@ input:focus {
   }
   .col-3 {
     display: block;
-    /* margin-right: 34px;*/
+    
   }
   body {
     max-width: 100%;
-    /*max-width: inherit;
-    overflow-x: hidden;
-    overflow-y: scroll;*/
-    /* max-width: 70vh;*/
-    /*overflow-x: visible;
-    overflow-y: visible;
-    width: 500px;
-    position: fixed;*/
-    /*overflow-x: -moz-hidden-unscrollable;*/
+    
   }
-}
-@media only screen and (max-width: 800px) /*less than 800*/ {
+}*/
+/*@media only screen and (max-width: 800px) {
   .love p {
     margin-top: 20px;
   }
@@ -442,7 +429,7 @@ input:focus {
     margin: 10px;
   }
 }
-@media only screen and (max-width: 670px) /*less than 670*/ {
+@media only screen and (max-width: 670px)  {
   #logo {
     display: block;
     margin-left: auto;
@@ -469,13 +456,12 @@ input:focus {
     padding-right: 8%;
   }
   .made {
-    /* display: flex;
-    margin-left: 34%; */
+    
     color: #555;
     color: #555;
     position: inherit;
     top: 50%;
-    /* left: 6%; */
+   
     margin-right: 7%;
   }
   .centerfooter .titleme {
@@ -490,7 +476,7 @@ input:focus {
   .aboutme {
     padding-right: 12%;
   }
-}
+}*/
 /* @media only screen and (max-width: 595px)  {
   .containerFooter {
     display: flex;
@@ -514,6 +500,7 @@ input:focus {
     display: block;
     margin: 0;
     padding: 0;
+    margin-left: -17%;
   }
 }
 @media only screen and (max-width: 580px) /*less than 800*/ {
@@ -522,7 +509,12 @@ input:focus {
     /*width: fit-content;*/
   }
 }
-@media only screen and (max-width: 400px) /*less than 400*/ {
+@media only screen and (max-width: 400px) {
+  /** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   .header,
   .love img,
   .footerc {
@@ -534,10 +526,8 @@ input:focus {
     margin-right: -26%;
     display: block;
     margin-left: auto;
-    /* margin-right: 60px; */
+
     padding-left: 40px;
-    /* margin-top: -46%; */
-    /* margin-bottom: -47%;*/
   }
   nav ul {
     display: flex;
@@ -548,7 +538,7 @@ input:focus {
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    /* justify-content: space-evenly; */
+
     margin-inline-start: -20%;
   }
   .aboutme {
@@ -560,10 +550,8 @@ input:focus {
     padding-right: 11%;
   }
   .message {
-    /* margin-right: -6%;*/
     display: block;
     margin-left: 1%;
-    /*margin-right: auto;*/
   }
   .sendbutton .bbutton {
     margin-right: 37%;
@@ -586,11 +574,11 @@ input:focus {
   }
   .made {
     margin-right: 24%;
-  }
+  }*/
 }
-@media only screen and (max-width: 345px) /*less than 400*/ {
+/*@media only screen and (max-width: 345px) {
   .contact {
-    /* margin-left: 33%; */
+   
     margin-left: auto;
     display: block;
     margin-right: -35%;
@@ -605,7 +593,7 @@ input:focus {
     margin-left: 33%;
   }
 }
-@media only screen and (max-width: 325px) /*less than 400*/ {
+@media only screen and (max-width: 325px) {
   .aboutme {
     padding-left: 21%;
     margin-right: -32%;
@@ -626,7 +614,7 @@ input:focus {
     margin-right: 32%;
   }
 }
-@media only screen and (max-width: 310px) /*less than 310*/ {
+@media only screen and (max-width: 310px) {
   .aboutme {
     padding-left: 21%;
     margin-right: -49%;
@@ -666,4 +654,261 @@ input:focus {
   .containerFooter {
     margin-left: -36px;
   }
+}*/
+@media only screen and (max-width: 427px) {
+  .navbar {
+    padding: 20px;
+    font-size: 25px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .aboutme .titleme {
+    display: block;
+    margin-right: auto;
+    margin-left: -17%;
+  }
+  .col-2 {
+    flex-basis: 100%;
+    min-width: 300px;
+  }
+  td {
+    padding: 6px 31px;
+    font-family: "Pushster", cursive;
+    font-size: 15px;
+    /* margin-left: 40px; */
+  }
+  div .me {
+    /* background-color: #584b3f; */
+    max-width: 300px;
+    margin-left: 40px;
+  }
+
+  .love p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 37px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    /* margin-left: 186px;*/
+  }
+  nav ul {
+    display: flex;
+  }
+  nav ul li {
+    margin-right: 0px;
+  }
+  .navbar {
+    display: block;
+  }
+
+  button.bbutton i {
+    padding-left: 8px;
+    display: inline;
+  }
+  .line1 button.bbutton {
+    padding: 11px 14px;
+    font-size: 15px;
+  }
+  h3 {
+    padding-left: 2px;
+  }
+  .skills .col-2 {
+    flex-basis: 50%;
+    padding-bottom: 21px;
+  }
+  .containerFooter {
+    display: flex;
+  }
+  .containerFooter .titleme,
+  .made {
+    margin: 0px;
+  }
+  .skills h1 {
+    padding-left: 36px;
+  }
+}
+@media only screen and (max-width: 606px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  .skills .col-2 {
+    flex-basis: 50%;
+    padding-bottom: 21px;
+  }
+  button.bbutton {
+    padding: 15px 19px;
+  }
+  button.bbutton i {
+    padding-left: 8px;
+    display: inline;
+  }
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .col-2 {
+    flex-basis: 100%;
+    min-width: 300px;
+  }
+  .aboutme td {
+    padding: 6px 31px;
+    font-family: "Pushster", cursive;
+    font-size: 19px;
+  }
+  div .me {
+    display: block;
+    margin-right: 0%;
+    margin-left: 5%;
+    max-width: 400px;
+  }
+
+  .navbar {
+    display: block;
+  }
+  nav ul li {
+    margin-right: 19px;
+  }
+
+  .containerFooter {
+    display: flex;
+  }
+  .containerFooter .titleme,
+  .made {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 670px) {
+  .navbar {
+    display: inline-block;
+  }
+  .header .container {
+    text-align: center;
+  }
+  .skills .col-2 {
+    flex-basis: 50%;
+    min-width: 442px;
+    padding: 11px;
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+}
+@media only screen and (max-width: 786px) {
+  .aboutme .col-2 {
+    flex-basis: 50%;
+    min-width: 442px;
+    padding: 7px;
+  }
+  .aboutme h1 {
+    margin-left: -31%;
+    margin-right: -30px;
+  }
+  .skills h1 {
+    margin-left: -5%;
+  }
+  .contact .bbutton {
+    padding: 15px 31px;
+  }
+}
+@media only screen and (max-width: 1120px) {
+  h3 {
+    margin: 12px;
+  }
+}
+
+@media only screen and (max-width: 408px) {
+  div .me {
+    display: block;
+    margin-right: 0%;
+    margin-left: 15%;
+    max-width: 400px;
+  }
+  .aboutme td {
+    padding: 6px 30px;
+    font-family: "Pushster", cursive;
+    font-size: 12px;
+  }
+  nav ul li {
+    margin-right: 14px;
+  }
+  .line1 button.bbutton {
+    padding: 11px 14px;
+    font-size: 12px;
+  }
+  .fa.fa-circle {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-left: -30%;
+
+    padding-right: 10px;
+  }
+}
+@media only screen and (max-width: 316px) {
+  .love p {
+    font-size: 18px;
+  }
+  .line1 button.bbutton {
+    padding: 11px 14px;
+    font-size: 10px;
+  }
+  .aboutme td {
+    padding: 6px 30px;
+    font-family: "Pushster", cursive;
+    font-size: 12px;
+  }
+  div .me {
+    display: block;
+    margin-right: 9%;
+    margin-left: 20%;
+    max-width: 400px;
+  }
+  a {
+    font-size: 20px;
+  }
+  .fa.fa-circle {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-left: -35%;
+    padding-right: 12px;
+  }
+  h3 {
+    margin: 12px;
+  }
+  input {
+    width: 87%;
+    height: 50px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding-left: 21px;
+    border: none;
+    margin-left: 9px;
+  }
+}
+.header,
+.love img,
+.footerc {
+  width: 104%;
 }
