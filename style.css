@@ -292,6 +292,9 @@ input:focus {
   letter-spacing: 2px;
   font-family: "Pushster", cursive;
 }
+.s-1 {
+  margin-top: -23px;
+}
 .made {
   font-weight: bold;
   margin-left: 33px;
