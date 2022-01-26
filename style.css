@@ -142,7 +142,7 @@ div .me {
   max-width: 300px;
 }
 td {
-  padding: 5px 20px;
+  padding: 5px 43px;
   font-family: "Pushster", cursive;
   font-size: larger;
 }
@@ -193,6 +193,7 @@ tr span {
 
 .fa.fa-circle {
   margin-left: -157px;
+  /*margin-left: -93px;*/
   color: red;
   display: inline-block;
   padding: 13px;
@@ -205,6 +206,8 @@ h3 {
   font-weight: bold;
   font-family: "Pushster", cursive;
   color: rgb(103, 49, 71);
+  padding-left: 2px;
+  padding-right: 2px;
 }
 .container-2 {
   padding-left: 150px;
@@ -810,15 +813,14 @@ input:focus {
     padding-right: 12%;
   }
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 904px) {
   .aboutme .col-2 {
     flex-basis: 50%;
     min-width: 442px;
     padding: 7px;
   }
   .aboutme h1 {
-    margin-left: -31%;
-    margin-right: -30px;
+    margin-left: -10%;
   }
   .skills h1 {
     margin-left: -5%;
@@ -884,14 +886,22 @@ input:focus {
     font-size: 20px;
   }
   .fa.fa-circle {
-    display: block;
+    /* display: block;
     margin: 0;
     padding: 0;
     margin-left: -35%;
+    padding-right: 12px; */
+
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-left: -41%;
     padding-right: 12px;
+    font-size: 13px;
   }
   h3 {
     margin: 12px;
+    font-size: 20px;
   }
   input {
     width: 87%;
@@ -911,4 +921,15 @@ input:focus {
 .love img,
 .footerc {
   width: 104%;
+}
+/*@media only screen and (min-width: 980px) {
+  .fa.fa-circle {*/
+/*margin-left: -157px;*/
+/*margin-left: -215px;
+  }
+}*/
+@media only screen and (max-width: 975px) {
+  .fa.fa-circle {
+    margin-left: -93px;
+  }
 }
